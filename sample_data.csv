@@ -1,0 +1,9 @@
+price,qt
+52,1
+52.96,1
+53.95,1
+,
+,
+,
+price it second from the bottom if seller 1 qt is 2 or less,
+if item has no sales for a week reprice to match seller 1,
