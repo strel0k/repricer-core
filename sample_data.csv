@@ -1,9 +1,11 @@
-price,qt
-52,1
-52.96,1
-53.95,1
-,
-,
-,
-price it second from the bottom if seller 1 qt is 2 or less,
-if item has no sales for a week reprice to match seller 1,
+price,qt,fulfillment,seller-id,seller-name
+71.38,1,Merchant,A7LQTHQK7QDGZ,woguanli
+71.48,1,Merchant,A1553HU74SFB4Q,Reliable Seller
+76.48,1,Merchant,A1Y1KUQ3P7F1X8,
+83.75,3,Amazon,A1FZCEPFHX9LWG,
+86.48,1,Merchant,ASBVN988SU7YO,
+98.49,1,Merchant,AI4DBKMR77EX4,
+99.95,4,Amazon,A24CULAGUTAJO2,
+113.46,1,Merchant,AU7E5XJQ2JWEG,
+122.05,2,Merchant,ARDRFGMICQ9IZ,Specialty Liquidators
+133.91,2,Merchant,A3MO2KYPMA54RH,Angel Galleria
