@@ -1,7 +1,6 @@
-__author__ = 'D'
-
 import numpy
 import csv
+
 
 def my_csv(mode, file_name='my_csv.csv', table=None):
     if mode == 'save':
@@ -16,6 +15,7 @@ def my_csv(mode, file_name='my_csv.csv', table=None):
             table = [row for row in reader]
         return table
 
+
 def cluster(data, maxgap):
     data.sort()
     groups = [[data[0]]]
@@ -27,19 +27,19 @@ def cluster(data, maxgap):
     return groups
 
 
+# MY DATA:
 my_price = 79.50
 break_even = 55.00
 
-
+# BUY BOX DATA:
 buy_box = 76.48
 fulfillment = 'Merchant'
 belongs_to_me = False
+
 
 # price	qt	fulfillment	seller-name	seller-id
 offers_table = my_csv('load', 'sample_data.csv')
 
 for row in offers_table:
     print row
-
-
 
